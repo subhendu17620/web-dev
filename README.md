@@ -6,7 +6,7 @@
 * [basic portfolio](https://subhendu17620.github.io/web-dev/basic_portfolio/)
 
 
-###resource
+## resource
 
 ### HTML
 
