@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>aadhya</title>
+    <meta name="aadhya" content="first website of techferst --aadhya2020" />
+
+    <meta name="subhendu" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script>
+      document.documentElement.className = "js";
+      var supportsCssVars = function() {
+        var e,
+          t = document.createElement("style");
+        return (
+          (t.innerHTML = "root: { --tmp-var: bold; }"),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports("font-weight", "var(--tmp-var)")
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          "Please view this demo in a modern browser that supports CSS Variables."
+        );
+    </script>
+    <link href="vendors.css" rel="stylesheet" />
+    <link href="demo4.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="overlay"></div>
+    <main>
+      <div class="frame">
+        <div class="frame__demos">
+          <a href="demo4.html" class="frame__demo">Home</a>
+          <a href="#" class="frame__demo">Events</a>
+          <a href="#" class="frame__demo">Guests</a>
+          <a href="#" class="frame__demo">Flagship</a>
+          <a href="#" class="frame__demo">Collaborations</a>
+          <a href="#" class="frame__demo">Faq</a>
+          <a href="#" class="frame__demo">Find Us</a>
+        </div>
+      </div>
+     <img src="logo-04.svg " alt="logo">
+    </main>
+    <script type="text/javascript" src="vendors.js"></script>
+    <script type="text/javascript" src="demo4.js"></script>
+  </body>
+</html>
