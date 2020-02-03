@@ -193,7 +193,7 @@
     g.camera.position.z = 6;
     var P = new u.a("Aadhya", {
       color: "#ffffff",
-      size: (y.a.isMobile, 0.4),
+      size: y.a.isMobile ? 0.2 : 0.4,
       wireframe: !1,
       opacity: y.a.isMobile ? 1 : 0
     });
