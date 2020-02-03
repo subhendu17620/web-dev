@@ -1,6 +1,6 @@
 .block {
   position: absolute;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 /* .dot {
   height: 25px;
@@ -499,7 +499,7 @@ a:focus {
     pointer-events: none;
     grid-template-columns: 40% 20% 40%;
     grid-template-rows: auto auto auto;
-    grid-template-areas: "title ... links" "... ... ..." "credits scroll demos";
+    grid-template-areas: "title ..." "... ... ..." "scroll";
   }
 
   .frame__scroll {
@@ -521,24 +521,6 @@ a:focus {
     margin: 0 0 0 1rem;
     padding: 0 0 0 1rem;
     opacity: 0.5;
-  }
-
-  .frame__credits {
-    grid-area: credits;
-    justify-self: start;
-    margin: 0;
-  }
-
-  .frame__demos {
-    margin: 0;
-    grid-area: demos;
-    justify-self: end;
-  }
-
-  .frame__links {
-    grid-area: links;
-    padding: 0;
-    justify-self: end;
   }
 
   .frame a {

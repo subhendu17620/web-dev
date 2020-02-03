@@ -118,7 +118,7 @@
                 this.addFloor(),
                 this.addBackgroundShape(),
                 this.loadModels(
-                  "https://raw.githubusercontent.com/iondrimba/images/master/buildings.obj",
+                  "https://raw.githubusercontent.com/subhendu17620/web-dev/master/aadhya-intro/obg/buildings.obj",
                   this.onLoadModelsComplete.bind(this)
                 ),
                 this.animate(),
@@ -441,6 +441,3 @@
     });
   }
 ]);
-
-
-
