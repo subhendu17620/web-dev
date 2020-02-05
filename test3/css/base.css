@@ -211,41 +211,6 @@ body {
   opacity: 1;
 }
 
-/* Page Loader */
-.js .loading::before {
-  content: "";
-  position: fixed;
-  z-index: 100000;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: var(--color-bg);
-}
-
-.js .loading::after {
-  content: "";
-  position: fixed;
-  z-index: 100000;
-  top: 50%;
-  left: 50%;
-  width: 60px;
-  height: 60px;
-  margin: -30px 0 0 -30px;
-  pointer-events: none;
-  border-radius: 50%;
-  opacity: 0.4;
-  background: var(--color-link);
-  animation: loaderAnim 0.7s linear infinite alternate forwards;
-}
-
-@keyframes loaderAnim {
-  to {
-    opacity: 1;
-    transform: scale3d(0.5, 0.5, 1);
-  }
-}
-
 a {
   text-decoration: none;
   color: var(--color-link);
@@ -310,34 +275,8 @@ main {
     "github info";
 }
 
-.demo-1 .content--fixed {
-  padding: 1rem 1.75rem 1rem 1rem;
-}
-
 .content--fixed a {
   pointer-events: auto;
-}
-
-/* Header */
-.codrops-header {
-  position: relative;
-  z-index: 100;
-  align-self: start;
-  grid-area: header;
-  justify-self: start;
-  -webkit-writing-mode: vertical-lr;
-  writing-mode: vertical-lr;
-  height: 18rem;
-}
-
-.codrops-header__title {
-  font-size: 1em;
-  font-weight: bold;
-  margin: 0;
-  padding: 1.75em 0;
-  transform: scale(-1);
-  align-self: center;
-  line-height: 2;
 }
 
 .info {
@@ -348,14 +287,6 @@ main {
   grid-area: info;
   align-self: end;
   justify-self: end;
-}
-
-.github {
-  display: block;
-  align-self: end;
-  grid-area: github;
-  justify-self: start;
-  margin: 0.25rem;
 }
 
 .demos {
@@ -398,19 +329,7 @@ a.demo--current {
     display: block;
     padding: 0.85em;
   }
-  .codrops-header {
-    flex-direction: column;
-    align-items: center;
-    -webkit-writing-mode: initial;
-    writing-mode: initial;
-    height: auto;
-  }
-  .codrops-header__title {
-    font-weight: bold;
-    padding-bottom: 0.25em;
-    text-align: center;
-    transform: none;
-  }
+
   .info {
     margin: 1rem 0;
     -webkit-writing-mode: initial;
@@ -419,14 +338,5 @@ a.demo--current {
   }
   .github {
     display: none;
-  }
-  .codrops-links {
-    margin: 0;
-    float: none;
-    width: auto;
-  }
-  .demo-1 {
-    --color-link-hover: #fff;
-    --color-info: #fff;
   }
 }
