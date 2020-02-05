@@ -59,12 +59,12 @@
 /* Media Queries */
 @media screen and (max-width: 50em) {
   .link--surinami {
-    font-size: 3em;
+    font-size: 2em;
   }
 }
 
 @media screen and (max-width: 42em) {
   .link--yaku {
-    font-size: 4em;
+    font-size: 2em;
   }
 }
