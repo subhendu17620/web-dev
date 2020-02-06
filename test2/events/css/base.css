@@ -32,6 +32,7 @@ html {
 }
 body {
   margin: 0;
+  align-items: center;
 }
 a:focus {
   outline: thin dotted;
@@ -193,8 +194,8 @@ body {
 /* Color schemes */
 
 .demo-2 {
-  --color-text: #fff;
-  --color-bg: #201f21;
+  --color-text: #e5e5e5;
+  --color-bg: #11161a;
   --color-link: #fff;
   --color-link-hover: #7b7b7b;
   --color-info: #7b7b7b;
