@@ -59,14 +59,6 @@
   color: #15c9ff;
 }
 
-.slide:nth-child(4) .slide__text {
-  color: #ffc107;
-}
-
-.slide:nth-child(5) .slide__text {
-  color: #fff;
-}
-
 .slide--current .slide__title {
   animation: glitch-anim-title 0.25s linear alternate 1 backwards;
 }
@@ -91,8 +83,22 @@
   color: #fff;
 }
 
-.slide__description a {
-  color: #aaa;
+.first-link {
+  /* color: #aaa; */
+  color: #ffae1a;
+
+  pointer-events: auto;
+}
+.second-link {
+  /* color: #aaa; */
+  color: #58e8b3;
+
+  pointer-events: auto;
+}
+.third-link {
+  /* color: #aaa; */
+  color: #15c9ff;
+
   pointer-events: auto;
 }
 
